@@ -287,13 +287,35 @@ nav .fa-bars{
     margin-bottom: 2em;
 }
 
- #section-box-ods h2, #section-box-onu h2{
+#section-box-ods h2, #section-box-onu h2{
     padding: 25px 0 10px;
 }
+
+#section-box-ods h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#section-box-ods hr{
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
 #section-box-ods p, #section-box-onu p{
     padding: 10px 0 0;
     font-size: 18px;
     text-align: justify;
+}
+
+#container-17objetivos{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px 20px;
+}
+
+#container-17objetivos  img{
+    border-radius: 20px;
 }
 
 /*Fechamento ODS e ONU*/
@@ -434,18 +456,25 @@ nav .fa-bars{
         height: 500px;
 
     }
-
     /*Fechamento Politica*/
+
+    /*ODS*/
+    #container-17objetivos{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #section-ods{
+        margin: 0 5em;
+    }
+    /*Fechamento ODS*/
 }
 
 @media screen and (max-width: 720px){
     /*ODS e ONU*/
-    #section-box-ods iframe{
-        width: 600px;
-        width: 500px;
-    }
     #section-box-onu img{
         width: 540px;
+    }
+    #container-17objetivos{
+        grid-template-columns: repeat(2, 1fr);
     }
     /*Fechamento ODS e ONU*/
 
@@ -491,10 +520,7 @@ nav .fa-bars{
     /*Fechamento Politica*/
     
     /*ODS*/
-    #section-box-ods iframe{
-        width: 400px;
-        height: 300px;
-    }
+    
     #links > a{
         display: none;
     }
@@ -504,9 +530,19 @@ nav .fa-bars{
     #section-box-onu img{
         width: 400px;
     }
+    #section-ods{
+        margin: 0 3em;
+    }
     /*Fechamento ODS*/
+    #container-17objetivos{
+    grid-template-columns: repeat(1, 1fr);
+    }
     
 }
+
+@media screen and (min-width:390px) and (max-width: 549px){
+}
+
 
 @media screen and (max-width:400px){
     /* Formulario*/
@@ -527,11 +563,7 @@ nav .fa-bars{
     }
     /*Fechamento Politica*/
 
-    /*ODS*/
-     #section-box-ods iframe{
-        width: 300px;
-        height: 200px;
-    }
+    /*rodape*/
     #rodape{
         padding-top: 20px;
     }
@@ -541,10 +573,10 @@ nav .fa-bars{
     #rodape-box #integrantes, #rodape-box #navegacao{
         font-size: 2px;
     }
-    #section-box-onu img{
-        width: 350px;
+    /*rodape*/
+    #section-ods{
+        margin: 0 2em;
     }
-    /*Fechamento ODS*/
 
 }
 @media screen and (max-width:330px){
