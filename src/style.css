@@ -287,7 +287,16 @@ nav .fa-bars{
     margin-bottom: 2em;
 }
 
-#section-box-ods h2, #section-box-onu h2{
+#section-box-ods h2{
+    font-size: 40px;
+    padding: 25px 0 10px;
+}
+
+#section-box-ods ul, #section-box-ods li{
+    margin:10px;
+}
+
+#section-box-onu h2{
     padding: 25px 0 10px;
 }
 
@@ -533,9 +542,10 @@ nav .fa-bars{
     #section-ods{
         margin: 0 3em;
     }
+    
     /*Fechamento ODS*/
     #container-17objetivos{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     }
     
 }

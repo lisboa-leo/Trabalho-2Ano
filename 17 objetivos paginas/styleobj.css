@@ -120,6 +120,9 @@ nav .fa-bars{
     font-family: 'Rubik';
     margin-bottom: 15px;
 }
+.objetivos-box h3{
+    margin: 15px 0 0 0;
+}
 .objetivos-box p{
     padding: 14px 0 0 0;
     font-size: 18px;
@@ -163,6 +166,7 @@ nav .fa-bars{
     color: #000;
     transition: all .2s ease-in-out;
     display: block;
+    float: right;
 }
 #links a:hover{
     border-color: #fff;
@@ -226,5 +230,21 @@ nav .fa-bars{
     }
     #links{
         display: none;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .objetivos-box img{
+        width: 320px;
+    }
+    .objetivos-box h2{
+        font-size: 17px;
+    }
+    .objetivos-box p{
+        font-size: 16px;
+    }
+    #rodape h2{
+        font-size: 13px;
     }
 }
