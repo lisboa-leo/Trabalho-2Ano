@@ -12,6 +12,7 @@ var msgCookies = document.getElementById('cookies-msg');
 function aceito(){
     localStorage.AceitoLgpd = "Aceito"
     msgCookies.classList.remove('mostrar')
+    window.location.reload();
 }
 function naoaceitocookies(){
     localStorage.NaoAceitoLgpd = "Nao Aceito"

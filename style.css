@@ -327,6 +327,15 @@ nav .fa-bars{
     border-radius: 20px;
 }
 
+#container-17objetivos a{
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+#container-17objetivos a:hover{
+    transform: scale(0.9);
+}
+
 /*Fechamento ODS e ONU*/
 
 
