@@ -317,9 +317,9 @@ nav .fa-bars{
 }
 
 #container-17objetivos{
-    margin:  0 140px 0 140px;
+    margin:  0 140px 50px 140px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 60px 20px;
 }
 
@@ -394,17 +394,15 @@ nav .fa-bars{
     font-size: 18px;
     font-family: 'Rubik';
 }
-#rodape h2 > span a{
-    padding-left: 5px;
-    text-decoration: none;
-    color: #CBEDD5;
-    transition: transform .3s ease-out;
-    display: inline-block;
+#rodape h2>a{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #000;
+    transition: transform .3s linear;
 }
-#rodape h2 > span a:hover{
-    color: #0e2c40;
-    text-decoration: underline;
-    transform: translate(0, -5px);
+#rodape h2>a:hover{
+    color: #fff;
+    transform: translate(0, -10px);
 }
 #integrantes li > span{
     padding: 0px 40px 10px;
@@ -555,12 +553,13 @@ nav .fa-bars{
     #section-ods{
         margin: 0 3em;
     }
+    #container-17objetivos{
+        gap: 10px;
+        margin:30px;
+    }
     
     /*Fechamento ODS*/
-    #container-17objetivos{
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 30px 0 30px;
-    }
+    
     
 }
 
