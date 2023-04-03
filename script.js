@@ -24,3 +24,7 @@ if(localStorage.AceitoLgpd == 'Aceito'){
 else{
     msgCookies.classList.add('mostrar')
 }
+
+function voltar(){
+    window.history.back()
+}

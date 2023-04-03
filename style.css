@@ -724,6 +724,10 @@ nav .fa-bars{
         padding: 20px;
     }
     /*Fechamento Termos*/
+    #rodape h2>a{
+        margin-left: 10px;
+        font-size: 18px;
+    }
 
 }
 @media screen and (max-width:330px){
@@ -735,7 +739,7 @@ nav .fa-bars{
         font-size: 10px;
     }
     #termos-politicas{
-        width: 350px;
+        width: 320px;
     }
     /*Fechamento ODS*/
 }

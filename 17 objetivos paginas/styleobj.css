@@ -229,6 +229,14 @@ nav .fa-bars{
     #links{
         display: none;
     }
+    #rodape-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+    #navegacao h3, #navegacao ul li{
+        text-align: center;
+    }
 
 }
 
