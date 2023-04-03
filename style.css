@@ -294,7 +294,7 @@ nav .fa-bars{
     text-align: center;
 }
 
-#section-box-ods iframe, #section-box-onu img{
+#section-box-onu iframe{
     display: flex;
     margin: 0 auto;
     margin-bottom: 2em;
@@ -557,6 +557,13 @@ nav .fa-bars{
         margin: 0 5em;
     }
     /*Fechamento ODS*/
+
+    /*ONU*/
+    #section-box-onu iframe{
+        width: 700px;
+        height: 400px;
+    }
+    /*Fechamento ONU*/
 }
 
 @media screen and (max-width: 720px){
@@ -593,6 +600,13 @@ nav .fa-bars{
         font-size: 18px;
     }
     /*Fechamento Termos*/
+    
+    /*ONU*/
+    #section-box-onu iframe{
+        width: 500px;
+        height: 280px;
+    }
+    /*Fechamento ONU*/
 
 }
 
@@ -676,6 +690,12 @@ nav .fa-bars{
         width: 450px;
     }
     /*Fechamento Termos*/
+    /*ONU*/
+    #section-box-onu iframe{
+        width: 350px;
+        height: 200px;
+    }
+    /*Fechamento ONU*/
 }
 
 @media screen and (max-width:400px){
@@ -728,6 +748,12 @@ nav .fa-bars{
         margin-left: 10px;
         font-size: 18px;
     }
+    /*ONU*/
+    #section-box-onu iframe{
+        width: 300px;
+        height: 170px;
+    }
+    /*Fechamento ONU*/
 
 }
 @media screen and (max-width:330px){
