@@ -12,16 +12,8 @@
 <body>
     <header>
         <nav id="navbar">
-            <a href=""><img src="imagens/logo.png" alt=""></a>
-            <ul id="lista-navbar">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="agendaonu.html">Agenda ONU 2030</a></li>
-                <li><a href="">Sustentabilidade</a></li>
-                <li><a href="ODS.html">ODS</a></li>
-                <li><a href="faleconosco.html">Fale Consoco</a></li>
-                <i class="fa-solid fa-xmark" onclick="fecharmenu()"></i>
-            </ul>
-            <i class="fa-solid fa-bars" onclick="abrirmenu()"></i>
+            <a class="fa-solid fa-arrow-left" id="arrow" onclick="voltar()"></a>
+            <a href=""><img src="imagens/logo.png"  alt=""></a>
         </nav>
     </header>
     <div id="cookies-msg" class="cookies-msg">
@@ -100,3 +92,8 @@
 
 <script src="script.js"></script>
     
+<script>
+    function voltar(){
+        window.history.back()
+    }
+</script>

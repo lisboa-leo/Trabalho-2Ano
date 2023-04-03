@@ -88,6 +88,14 @@ nav .fa-bars{
     position: absolute;
     right: 20px;
 }
+#arrow{
+    display: block;
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    color: #CBEDD5;
+    text-decoration: none;
+}
 
 
 /*Fechamento NavBar*/
