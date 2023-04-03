@@ -138,6 +138,7 @@ nav .fa-bars{
 /*Rodape*/
 #rodape{
     background-color: #439A97;
+    font-family: 'Rubik';
 }
 #rodape-box{
     display: flex;
@@ -147,11 +148,11 @@ nav .fa-bars{
     margin: 2em;
 }
 
+
 #integrantes ul li, #navegacao ul li > a, #navegacao ul li{
     list-style: none;
     text-decoration: none;
     color: #000;
-    font-family: 'Rubik';
     transition: all .2s ease-in-out;
     display: block;
     font-size: 18px;
@@ -166,7 +167,7 @@ nav .fa-bars{
     margin: auto;
     width: 80%;
 }
-#rodape h2{
+#rodape h2, h3{
     padding: 1em;
     display: flex;
     justify-content: center;
@@ -191,6 +192,17 @@ nav .fa-bars{
     display: inline-block;
 }
 #integrantes li > span:hover{
+    transform: translate(0, -10px);
+    color: #62B6B7;
+}
+#navegacao h3{
+    padding: 0px 40px 10px;
+    color: #0e2c40;
+    font-weight: bold;
+    transition: transform .3s linear;
+    display: inline-block;
+}
+#navegacao h3:hover{
     transform: translate(0, -10px);
     color: #62B6B7;
 }
