@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/sustentabilidade.png" type="image/x-icon">
-    <title>Fale Conosco</title>
+    <title>Política de Cookies</title>
 </head>
 <body>
     <header>
         <nav id="navbar">
+            <a class="fa-solid fa-arrow-left" id="arrow" onclick="voltar()"></a>
             <a href=""><img src="imagens/logo.png" alt=""></a>
             <ul id="lista-navbar">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="agendaonu.html">Agenda ONU 2030</a></li>
                 <li><a href="">Sustentabilidade</a></li>
                 <li><a href="ODS.html">ODS</a></li>
+                <li><a href="faleconosco.html">Fale Consoco</a></li>
                 <i class="fa-solid fa-xmark" onclick="fecharmenu()"></i>
             </ul>
             <i class="fa-solid fa-bars" onclick="abrirmenu()"></i>
@@ -33,30 +35,41 @@
         </div>
     </div>
     <section>
-        <div class="container">
-            <form class="box" onsubmit="enviarEmail(); reset(); return false;" method="POST"> 
-                <a id="login">Fale Conosco</a>
-                <div class="inputs">
-                    <input type="text" required="required" id="nome" name="nome">
-                    <span>Nome</span>
-                </div>
-                <div id="input-email">
-                    <input type="email" required="required" id="email-usuario" name="email">
-                    <span>Email</span>
-                </div>
-                <div id="input-assunto">
-                    <input type="text" required="required" id="assunto" name="assunto">
-                    <span>Assunto</span>
-                </div>
-        
-                <div class="inputs">
-                    <textarea name="mensagem" cols="30" rows="10" id="mensagem" required="required"></textarea>
-                    <span>Mensagem</span>
-                </div>
 
-                <input type="submit" value="Enviar" id="submit">
+        <div id="section-termos">
+            <div id="section-box-termos">
+                <h1>Política de Cookies</h2>
 
-            </form>
+                <p>Última atualização: 4 de abril de 2023</p>
+                <p>Esta política de cookies descreve como o Working at Var  utiliza cookies e tecnologias semelhantes em nosso website. Ao utilizar o Site, você concorda com o uso de cookies e tecnologias semelhantes de acordo com esta Política.</p>
+
+                <h2>O que são Cookies?</h2>
+
+                <p>Cookies são pequenos arquivos de texto que um site ou serviço envia para o seu navegador, que são armazenados no seu dispositivo (computador, tablet ou celular) quando você visita o Site. Os cookies permitem que o Site se lembre de suas preferências e atividades anteriores, o que pode melhorar a sua experiência de navegação.</p>
+
+                <h2>Como utilizamos os cookies?</h2>
+
+                <p>Utilizamos cookies para diversas finalidades, incluindo:</p>
+
+                <ul>
+                    <li>Cookies de desempenho: Esses cookies coletam informações sobre como os usuários interagem com o Site, incluindo páginas visitadas, links clicados e outras métricas de desempenho. Essas informações nos ajudam a entender como melhorar o Site e fornecer uma melhor experiência de navegação para os usuários.</li>
+                    <li>Cookies de segurança: Esses cookies ajudam a proteger a segurança do Site, detectando atividades maliciosas e protegendo contra ataques de hackers.</li>
+                </ul>
+
+                <h2>Gerenciando cookies</h2>
+
+                <p>Você pode optar por desativar os cookies a qualquer momento alterando as configurações do seu navegador. Observe que desativar cookies pode afetar a funcionalidade do Site e limitar a sua capacidade de usar determinados recursos.</p>
+
+                <h2>Alterações nesta Política</h2>
+
+                <p>Podemos atualizar esta Política de tempos em tempos. Se fizermos alterações significativas nesta Política, publicaremos um aviso em destaque em nosso Site ou enviaremos uma notificação por e-mail. Recomendamos que você revise esta Política periodicamente para se manter informado sobre o uso de cookies e tecnologias semelhantes em nosso Site.</p>
+
+               <h2>Contato</h2>
+
+               <p>Se você tiver dúvidas ou comentários sobre esta Política de Cookies, entre em contato conosco por e-mail em <a href="mailto:workingatvar@gmail.com">workingatvar@gmail.com</a>. Ou pelo Formulario de <a href="faleconosco.html">Fale Conosco</a></p>
+
+                <p id="equipe-var"><strong>Equipe Working At Var.</strong></p>
+            </div>
         </div>
     </section>
     <footer>
@@ -101,23 +114,7 @@
         </div>
     </footer> 
 </body>
-    <script src="script.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-    <script>
-        function enviarEmail(){
-            Email.send({
-                SecureToken : "56cb31ea-646d-427c-ba71-77cb6fd21567",
-                To : "leonardolisboalsl007@gmail.com",
-                From : "leonardolisboalsl007@gmail.com",
-                Subject : "Entrando em contato pelo Site",
-                Body : "<b>Nome:</b> " + document.getElementById("nome").value
-                    + "<br> <br> <b>Email:</b> " + document.getElementById("email-usuario").value
-                    + "<br> <br> <b>Assunto:</b>: " + document.getElementById("assunto").value
-                    + "<br> <br> <b>Mensagem:</b> " + document.getElementById("mensagem").value
-                }).then(
-                message => alert("mensagem enviada com sucesso!")
-                );
-                }
-    </script>
 </html>
+
+<script src="script.js"></script>
+    

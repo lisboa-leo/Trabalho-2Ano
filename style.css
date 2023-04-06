@@ -95,6 +95,12 @@ nav .fa-bars{
     font-size: 25px;
     color: #CBEDD5;
     text-decoration: none;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+#arrow:hover{
+    color: #fff;
+    transform: scale(1.1);
 }
 
 
@@ -355,10 +361,11 @@ nav .fa-bars{
 #section-termosepoliticas{
     margin: 2em 9em;
 }
-#termos-politicas{
-    display: inline-block;
-    width: 500px;
-    flex-wrap: wrap;
+
+#section-box-termosepoliticas{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 #section-termosepoliticas h1{
@@ -392,11 +399,7 @@ nav .fa-bars{
     color: #62B6B7;
     transform: scale(0.9);
 }
-#section-termosepoliticas{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+
 
 /*Fechamento termos e politicas*/
 
@@ -564,6 +567,9 @@ nav .fa-bars{
         height: 400px;
     }
     /*Fechamento ONU*/
+    #section-box-termosepoliticas{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width: 720px){
