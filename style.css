@@ -106,6 +106,33 @@ nav .fa-bars{
 
 /*Fechamento NavBar*/
 
+/*Index*/
+#container{
+    margin: 2em 9em;
+
+}
+#box{
+    display: flex;
+    justify-content: space-around;
+}
+#box > div{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+@media screen and (max-width:1200px){
+    #box{
+        align-items: center;
+        flex-direction: column;
+    }
+    #box > div{
+        width: 300px;
+        height: 300px;
+        margin: 10px 0 10px 0;
+    }
+}
+/*Fechamento Index*/
+
 /*Formulario*/
 .container{
     display: flex;
@@ -338,7 +365,7 @@ nav .fa-bars{
 #container-17objetivos{
     margin:  0 140px 50px 140px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 60px 20px;
 }
 
@@ -360,8 +387,6 @@ nav .fa-bars{
 /*Sustentabilidade*/
 #section-sus{
     margin: 2em 9em;
-
-
 }
 #sustentabilidade{
     font-family: 'Rubik';
@@ -389,7 +414,6 @@ nav .fa-bars{
     padding: 10px 0 0 ;
 }
 
-
 #sustentabilidade > img{
     margin: 0 auto;
     width: 320px;
@@ -397,10 +421,14 @@ nav .fa-bars{
     border-radius: 20px;
 }
 
+#gro{
+    display: flex;
+    justify-content: space-between;
+}
+
 #gro > img{
     height: 200px;
     border-radius: 10px;
-    float: left;
     margin-right: 10px;
 }
 
@@ -742,8 +770,11 @@ nav .fa-bars{
     /*Fechamento ODS*/
 
     /*Sustentabilidade*/
+    #gro{
+        align-items: center;
+        flex-direction: column;
+    }
     #gro > img{
-        float: none;
         width: 250px;
         height: 200px;
     }
