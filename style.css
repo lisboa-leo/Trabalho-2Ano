@@ -357,6 +357,58 @@ nav .fa-bars{
 
 /*Fechamento ODS e ONU*/
 
+/*Sustentabilidade*/
+#section-sus{
+    margin: 2em 9em;
+
+
+}
+#sustentabilidade{
+    font-family: 'Rubik';
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+#sustentabilidade > h2, h3, h1{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+}
+
+#sustentabilidade > h1{
+    font-size: 2em;
+}
+
+#sustentabilidade > p{
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+#sustentabilidade > ul li, ol li{
+    padding: 10px 0 0 ;
+}
+
+
+#sustentabilidade > img{
+    margin: 0 auto;
+    width: 320px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#gro > img{
+    height: 200px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+#gro > p{
+    margin-top: 2%;
+}
+/*Fechamento Sustentabilidade*/
+
 /*Termos e Politicas*/
 #section-termosepoliticas{
     margin: 2em 9em;
@@ -570,6 +622,12 @@ nav .fa-bars{
     #section-box-termosepoliticas{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /*Sustentabilidade*/
+    #section-sus{
+        margin: 2em 6.5em;
+    }
+    /*Fechamento Sustentabilidade*/
 }
 
 @media screen and (max-width: 720px){
@@ -678,6 +736,33 @@ nav .fa-bars{
     }
     
     /*Fechamento ODS*/
+
+    /*Sustentabilidade*/
+    #gro > img{
+        float: none;
+        width: 250px;
+        height: 200px;
+    }
+    #gro > p{
+        text-align: justify;
+    }
+    #sustentabilidade > img{
+        width: 250px;
+        height: 200px;
+    }
+    #section-sus{
+        margin: 2em 3em;
+    }
+    #sustentabilidade > h1{
+        font-size: 1.5em;
+    }
+    #sustentabilidade > h2, h3{
+        font-size: 20px;
+    }
+    #sustentabilidade > ul li, ol li{
+        text-align: justify;
+    }
+    /*Fechamento Sustentabilidade*/
 
     /*Rodape*/
     #rodape-box{
