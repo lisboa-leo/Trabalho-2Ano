@@ -107,29 +107,93 @@ nav .fa-bars{
 /*Fechamento NavBar*/
 
 /*Index*/
-#container{
+#container-home{
     margin: 2em 9em;
+    font-family: 'Rubik';
+}
 
-}
-#box{
+#box-home{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
 }
-#box > div{
-    width: 400px;
-    height: 400px;
-    background-color: blue;
+
+#home-sobre hr{
+    margin: 10px auto;
+    width: 10%;
 }
-@media screen and (max-width:1200px){
-    #box{
-        align-items: center;
-        flex-direction: column;
-    }
-    #box > div{
-        width: 300px;
-        height: 300px;
-        margin: 10px 0 10px 0;
-    }
+
+#home-main > iframe{
+    margin: 2em auto; 
+    display: flex;
+}
+
+#home-main > h1{
+    font-size: 38px;
+    text-align: center;
+}
+
+#home-sobre > h2, #noticias > h2 {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 25px;
+}
+
+#home-sobre h4, p{
+    margin: 15px 0;
+    text-align: center;
+}
+
+#home-sustentabilidade, #container-noticias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+#home-sustentabilidade div{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 31px 31px 15px 6px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+#home-sustentabilidade div > p{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+#noticias img{
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    
+}
+
+#noticias p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+#container-noticias > div{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 31px 31px 15px 6px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+#container-noticias > div img{
+    width: 350px;
+    height: 200px;
+}
+
+#container-noticias > div a{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    color: #fff;
 }
 /*Fechamento Index*/
 
@@ -621,6 +685,19 @@ nav .fa-bars{
     }
     /*Fechamento Navbar*/
 
+    /*Index*/
+    #container-home{
+        margin: 2em 6em;
+    }
+    #home-sustentabilidade, #container-noticias{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #home-main > iframe{
+        width: 600px;
+        height: 350px;
+    }
+    /*Fechamento Index*/
+
     /*Politica*/
     #section-termos{
         margin: 2em 6.5em;
@@ -663,6 +740,25 @@ nav .fa-bars{
 }
 
 @media screen and (max-width: 720px){
+    /*Index*/
+    #home-sustentabilidade, #container-noticias{
+        place-items: center;
+    }
+    #container-home{
+        margin: 2em 4.5em;
+    }
+    #home-main > iframe{
+        width: 350px;
+        height: 200px;
+    }
+    #home-sustentabilidade, #container-noticias{
+        gap: 10px;
+    }
+    #container-noticias > div a{
+        display: block;
+        text-align: center;
+    }
+    /*Fechamento Index*/
     /*ODS e ONU*/
     #section-box-onu img{
         width: 540px;
