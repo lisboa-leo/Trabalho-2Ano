@@ -6,7 +6,6 @@
 }
 
 /*Pop-Up*/
-
 .cookies-msg{
     position: fixed;
     bottom: 3%;
@@ -46,12 +45,9 @@
 .cookies-msg .cookies-btn button:hover{
     transform: scale(0.9);
 }
-
-
 /* Fechamento do Pop-Up*/
 
 /*NavBar*/
-
 #navbar{
     display: flex;
     justify-content: space-evenly;
@@ -102,8 +98,6 @@ nav .fa-bars{
     color: #fff;
     transform: scale(1.1);
 }
-
-
 /*Fechamento NavBar*/
 
 /*Index*/
@@ -153,7 +147,7 @@ nav .fa-bars{
 #home-sustentabilidade div{
     background-color: #fff;
     border-radius: 20px;
-    box-shadow: 31px 31px 15px 6px rgba(0,0,0,0.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
     padding: 30px;
 }
 
@@ -165,8 +159,8 @@ nav .fa-bars{
 #noticias img{
     display: flex;
     margin: 0 auto;
-    width: 300px;
-    
+    width: 200px;
+    height: 200px;
 }
 
 #noticias p{
@@ -179,7 +173,7 @@ nav .fa-bars{
 #container-noticias > div{
     background-color: #fff;
     border-radius: 20px;
-    box-shadow: 31px 31px 15px 6px rgba(0,0,0,0.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px;
 }
 
@@ -191,11 +185,149 @@ nav .fa-bars{
 #container-noticias > div a{
     padding: 10px;
     border-radius: 20px;
-    background-color: cornflowerblue;
+    background-color: #439A97;
     text-decoration: none;
     color: #fff;
+    display: inline-block;
+}
+#container-noticias > div a:hover{
+    background-color: #0e2c40;
+    color: #439A97;
+    transform: scale(0.9);
 }
 /*Fechamento Index*/
+
+/*ODS e ONU*/
+#section-ods, #section-onu{
+    display: flex;
+    justify-content: center;
+    margin: 2em 9em;
+}
+
+#section-box-ods, #section-box-onu{
+    font-family: 'Rubik';
+}
+
+#section-box-ods h1, #section-box-onu h1{
+    padding: 30px 0 1.5em;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#section-box-onu iframe{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+#section-box-ods h2{
+    font-size: 40px;
+    padding: 25px 0 10px;
+}
+
+#section-box-ods ul, #section-box-ods li{
+    margin:10px;
+}
+
+#section-box-onu h2{
+    padding: 25px 0 10px;
+}
+
+#section-box-ods h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#section-box-ods hr{
+    width: 10%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#section-box-ods p, #section-box-onu p{
+    padding: 10px 0 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#container-17objetivos{
+    margin:  0 140px 50px 140px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px 20px;
+}
+
+#container-17objetivos  img{
+    border-radius: 20px;
+}
+
+#container-17objetivos a{
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+#container-17objetivos a:hover{
+    transform: scale(0.9);
+}
+/*Fechamento ODS e ONU*/
+
+/*Sustentabilidade*/
+#section-sus{
+    margin: 2em 9em;
+}
+#sustentabilidade{
+    font-family: 'Rubik';
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+#sustentabilidade > h2, h3, h1{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+}
+
+#sustentabilidade > h1{
+    font-size: 2em;
+}
+
+#sustentabilidade > p{
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+#sustentabilidade > ul li, ol li{
+    padding: 10px 0 0 ;
+}
+
+#sustentabilidade > img{
+    margin: 0 auto;
+    width: 320px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#gro{
+    display: flex;
+    justify-content: space-between;
+}
+
+#gro > img{
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#gro > p{
+    margin-top: 2%;
+}
+
+#sustentabilidade a{
+    padding-top: 10px;
+}
+/*Fechamento Sustentabilidade*/
 
 /*Formulario*/
 .container{
@@ -332,178 +464,7 @@ nav .fa-bars{
 #submit:hover{
     transform: scale(0.9);
 }
-
 /*fechamento formulario*/
-
-/*Politica de privacidade*/
-
-#section-termos{
-    display: flex;
-    justify-content: center;
-    margin: 2em 9em;
-}
-
-#section-box-termos{
-    font-family: 'Rubik';
-}
-
-#section-box-termos h1{
-    padding: 30px 0 1em;
-    font-size: 2em;
-}
-
- #section-box-termos h2{
-    padding: 25px 0 10px;
-}
-#section-box-termos p{
-    padding: 10px 0 0;
-    font-size: 18px;
-}
-
-#section-box-termos #equipe-var{
-    padding: 2em 0 0;
-}
-
-#section-box-termos ul{
-    padding: 25px;
-}
-
-
-/*Fechamento de privacidade*/
-
-
-/*ODS e ONU*/
-#section-ods, #section-onu{
-    display: flex;
-    justify-content: center;
-    margin: 2em 9em;
-}
-
-#section-box-ods, #section-box-onu{
-    font-family: 'Rubik';
-}
-
-#section-box-ods h1, #section-box-onu h1{
-    padding: 30px 0 1.5em;
-    font-size: 2em;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-#section-box-onu iframe{
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 2em;
-}
-
-#section-box-ods h2{
-    font-size: 40px;
-    padding: 25px 0 10px;
-}
-
-#section-box-ods ul, #section-box-ods li{
-    margin:10px;
-}
-
-#section-box-onu h2{
-    padding: 25px 0 10px;
-}
-
-#section-box-ods h4{
-    text-align: center;
-    margin-bottom: 10px;
-}
-#section-box-ods hr{
-    width: 10%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
-
-#section-box-ods p, #section-box-onu p{
-    padding: 10px 0 0;
-    font-size: 18px;
-    text-align: justify;
-}
-
-#container-17objetivos{
-    margin:  0 140px 50px 140px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 60px 20px;
-}
-
-#container-17objetivos  img{
-    border-radius: 20px;
-}
-
-#container-17objetivos a{
-    transition: all .2s ease-in-out;
-    display: block;
-}
-
-#container-17objetivos a:hover{
-    transform: scale(0.9);
-}
-
-/*Fechamento ODS e ONU*/
-
-/*Sustentabilidade*/
-#section-sus{
-    margin: 2em 9em;
-}
-#sustentabilidade{
-    font-family: 'Rubik';
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
-}
-
-#sustentabilidade > h2, h3, h1{
-    text-align: center;
-    margin: 20px 0 20px 0;
-    font-size: 30px;
-}
-
-#sustentabilidade > h1{
-    font-size: 2em;
-}
-
-#sustentabilidade > p{
-    padding: 10px 0 0;
-    text-align: justify;
-}
-
-#sustentabilidade > ul li, ol li{
-    padding: 10px 0 0 ;
-}
-
-#sustentabilidade > img{
-    margin: 0 auto;
-    width: 320px;
-    height: 250px;
-    border-radius: 20px;
-}
-
-#gro{
-    display: flex;
-    justify-content: space-between;
-}
-
-#gro > img{
-    height: 200px;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-
-#gro > p{
-    margin-top: 2%;
-}
-
-#sustentabilidade a{
-    padding-top: 10px;
-}
-/*Fechamento Sustentabilidade*/
 
 /*Termos e Politicas*/
 #section-termosepoliticas{
@@ -547,11 +508,43 @@ nav .fa-bars{
     color: #62B6B7;
     transform: scale(0.9);
 }
-
-
 /*Fechamento termos e politicas*/
 
+/*Politica de privacidade*/
 
+#section-termos{
+    display: flex;
+    justify-content: center;
+    margin: 2em 9em;
+}
+
+#section-box-termos{
+    font-family: 'Rubik';
+}
+
+#section-box-termos h1{
+    padding: 30px 0 1em;
+    font-size: 2em;
+}
+
+ #section-box-termos h2{
+    padding: 25px 0 10px;
+}
+#section-box-termos p{
+    padding: 10px 0 0;
+    font-size: 18px;
+}
+
+#section-box-termos #equipe-var{
+    padding: 2em 0 0;
+}
+
+#section-box-termos ul{
+    padding: 25px;
+}
+
+
+/*Fechamento de privacidade*/
 
 /*Rodape*/
 #rodape{
@@ -803,6 +796,23 @@ nav .fa-bars{
 }
 
 @media screen and (max-width: 550px) {
+    /*Index*/
+    #home-sustentabilidade > div p{
+        text-align: justify;
+        font-size: 18px;
+    } 
+    #container-home{
+        margin: 2em 2em;
+    }
+    #home-main iframe{
+        width: 250px;
+        height: 150px;
+    }
+    #container-noticias > div img{
+        width: 250px;
+        height: 200px;
+    }
+    /*Fechamento Index*/
     /* Formulario*/
     .container{
         display: flex;
