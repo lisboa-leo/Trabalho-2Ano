@@ -553,6 +553,7 @@ nav .fa-bars{
 #rodape-box{
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 #navegacao, #integrantes{
     margin: 2em;
