@@ -759,6 +759,12 @@ nav .fa-bars{
     #container-17objetivos{
         grid-template-columns: repeat(2, 1fr);
     }
+    #section-ods, #section-onu{
+        margin: 2em 1.5em;
+    }
+    #section-box-onu h2{
+        text-align: center;
+    }
     /*Fechamento ODS e ONU*/
 
     /*Termos*/
