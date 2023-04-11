@@ -159,8 +159,8 @@ nav .fa-bars{
 #noticias img{
     display: flex;
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 650px;
+    height: 400px;
 }
 
 #noticias p{
@@ -680,6 +680,10 @@ nav .fa-bars{
     /*Fechamento Navbar*/
 
     /*Index*/
+    #noticias img{
+        width: 550px;
+        height: 350px;
+    }
     #container-home{
         margin: 2em 6em;
     }
@@ -735,6 +739,10 @@ nav .fa-bars{
 
 @media screen and (max-width: 720px){
     /*Index*/
+    #noticias img{
+        width: 450px;
+        height: 350px;
+    }
     #home-sustentabilidade, #container-noticias{
         place-items: center;
     }
@@ -804,6 +812,10 @@ nav .fa-bars{
 
 @media screen and (max-width: 550px) {
     /*Index*/
+    #noticias img{
+        width: 300px;
+        height: 350px;
+    }
     #home-sustentabilidade > div p{
         text-align: justify;
         font-size: 18px;
@@ -1007,4 +1019,19 @@ nav .fa-bars{
         width: 320px;
     }
     /*Fechamento ODS*/
+    
+    /*Index*/
+    #noticias img{
+        width: 200px;
+        height: 200px;
+    }
+    #home-main iframe {
+        width: 250px;
+        height: 150px;
+    }
+    #container-noticias > div img {
+        width: 180px;
+        height: 180px;
+    }
+    /*Fechamento Index*/
 }
