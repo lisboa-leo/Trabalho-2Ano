@@ -34,7 +34,7 @@
     </div>
     <section>
         <div class="container">
-            <form class="box" onsubmit="enviarEmail(); reset(); return false;" method="POST"> 
+            <form class="box" onsubmit="enviarEmail(); reset(); return false;" method="POST" id="form"> 
                 <a id="login">Fale Conosco</a>
                 <div class="inputs">
                     <input type="text" required="required" id="nome" name="nome">
@@ -54,8 +54,7 @@
                     <span>Mensagem</span>
                 </div>
 
-                <input type="submit" value="Enviar" id="submit">
-
+                <input type="submit" value="Enviar" id="submit" onclick="enviar()">
             </form>
         </div>
     </section>
@@ -101,23 +100,6 @@
         </div>
     </footer> 
 </body>
-    <script src="script.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-    <script>
-        function enviarEmail(){
-            Email.send({
-                SecureToken : "56cb31ea-646d-427c-ba71-77cb6fd21567",
-                To : "marianne.cichy@docente.fieb.edu.br",
-                From : "marianne.cichy@docente.fieb.edu.br",
-                Subject : "Entrando em contato pelo Site da Working at Var",
-                Body : "<b>Nome:</b> " + document.getElementById("nome").value
-                    + "<br> <br> <b>Email:</b> " + document.getElementById("email-usuario").value
-                    + "<br> <br> <b>Assunto:</b>: " + document.getElementById("assunto").value
-                    + "<br> <br> <b>Mensagem:</b> " + document.getElementById("mensagem").value
-                }).then(
-                message => alert("mensagem enviada com sucesso!")
-                );
-                }
-    </script>
+    <script src="script.js"></script>
 </html>
