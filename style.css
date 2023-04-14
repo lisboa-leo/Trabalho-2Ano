@@ -868,6 +868,11 @@ nav .fa-bars{
     }
     .cookies-msg{
         width: 90%;
+
+    }
+    .cookies-msg .cookies-txt{
+        display: flex;
+        flex-direction: column;
     }
     /*Fechamento Cookies*/
 
@@ -901,7 +906,6 @@ nav .fa-bars{
         gap: 10px;
         margin:30px;
     }
-    
     /*Fechamento ODS*/
 
     /*Sustentabilidade*/
