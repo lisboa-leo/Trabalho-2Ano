@@ -15,26 +15,14 @@ function aceito(){
     msgCookies.classList.remove('mostrar')
     window.location.reload();
 }
-function naoaceitocookies(){
-    localStorage.NaoAceitoLgpd = "Nao Aceito"
-    msgCookies.classList.remove('mostrar')
-}
-
 
 if(localStorage.AceitoLgpd == 'Aceito'){
     msgCookies.classList.remove('mostrar')
 }
 
-else if(localStorage.NaoAceitoLgpd == 'Nao Aceito'){
-    msgCookies.classList.remove('mostrar')
-    botao.disabled=true
-    alert("Você precisa aceitar o cookies para enviar o email")
-}
-
 else{
     msgCookies.classList.add('mostrar')
 }
-
 
 function voltar(){
     window.history.back()

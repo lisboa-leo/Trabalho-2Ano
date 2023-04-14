@@ -28,12 +28,13 @@
     text-align: start;
     background-color: #fff;
     border-radius: 10px;
+    margin-right: 10px;
 }
 
 
 .cookies-msg .cookies-btn button{
     margin-left: 20px;
-    background-color: #000;
+    background-color: #0e2c40;
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -43,6 +44,7 @@
 }
 
 .cookies-msg .cookies-btn button:hover{
+    background-color: #439A97;
     transform: scale(0.9);
 }
 /* Fechamento do Pop-Up*/
@@ -533,6 +535,7 @@ nav .fa-bars{
 #section-box-termos p{
     padding: 10px 0 0;
     font-size: 18px;
+    text-align: justify;
 }
 
 #section-box-termos #equipe-var{
