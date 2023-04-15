@@ -20,5 +20,5 @@ Esperamos que este site seja uma fonte valiosa de informações e uma plataforma
 
 Obrigado por ler sobre o meu projeto e espero que isso inspire outras pessoas a experimentar a programação. :computer:
 
-:notebook_with_decorative_cover: acesse : https://workingatvar.bohr.io
+:notebook_with_decorative_cover: acesse: https://workingatvar.bohr.io
 
