@@ -1,6 +1,5 @@
 var menu = document.getElementById("lista-navbar");
 var msgCookies = document.getElementById('cookies-msg');
-var botao = document.getElementById('submit');
 
     function abrirmenu(){
         menu.style.right = "0"
@@ -24,15 +23,12 @@ else{
     msgCookies.classList.add('mostrar')
 }
 
-function voltar(){
-    window.history.back()
-}
 
 function enviarEmail(){
     Email.send({
         SecureToken : "56cb31ea-646d-427c-ba71-77cb6fd21567",
-        To : "leonardolisboalsl007@gmail.com",
-        From : "leonardolisboalsl007@gmail.com",
+        To : "marianne.cichy@docente.fieb.edu.br",
+        From : "marianne.cichy@docente.fieb.edu.br",
         Subject : "Entrando em contato pelo Site da Working at Var",
         Body : "<b>Nome:</b> " + document.getElementById("nome").value
             + "<br> <br> <b>Email:</b> " + document.getElementById("email-usuario").value
@@ -41,4 +37,8 @@ function enviarEmail(){
         }).then(
         message => alert("mensagem enviada com sucesso!")
         );
+}
+
+function voltar(){
+    window.history.back()
 }
