@@ -270,7 +270,7 @@ nav .fa-bars{
 #container-17objetivos{
     margin:  0 140px 50px 140px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 60px 20px;
 }
 
