@@ -197,6 +197,20 @@ nav .fa-bars{
     color: #439A97;
     transform: scale(0.9);
 }
+#termosepolitica-home{
+    display: flex;
+    flex-direction: column;
+}
+
+#termosepolitica-home > h2{
+    text-align: center;
+    margin: 30px 0;
+}
+
+#termosepolitica-home > a{
+    margin: 5px 0;
+    width: 150px;
+}
 /*Fechamento Index*/
 
 /*ODS e ONU*/
@@ -470,6 +484,23 @@ nav .fa-bars{
 
 #checkbox-formulario > div{
     padding-top: 10px;
+}
+
+#termosepolitica-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#termosepolitica-form > h2{
+    text-align: center;
+    margin: 30px 0;
+}
+
+#termosepolitica-form > a{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 /*fechamento formulario*/
@@ -865,14 +896,12 @@ nav .fa-bars{
     /*Cookies*/
     .cookies-msg .cookies-txt{
         font-size: 15px;
+        display: flex;
+        flex-direction: column;
     }
     .cookies-msg{
         width: 90%;
-
-    }
-    .cookies-msg .cookies-txt{
-        display: flex;
-        flex-direction: column;
+        text-align: justify;
     }
     /*Fechamento Cookies*/
 
